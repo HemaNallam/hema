@@ -6,7 +6,6 @@ const taskRoutes = require('./routes/taskRoutes');
 
 const app = express();
 
-// Enable CORS for all origins (Allow frontend to access API)
 app.use(cors());
 
 // Restrict CORS to a specific frontend (Optional)
